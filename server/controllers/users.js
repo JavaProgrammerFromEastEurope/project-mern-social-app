@@ -30,6 +30,14 @@ export const getUserFriends = async (req, res) => {
   }
 };
 
+export const getSuggestedProfiles() {
+	try {
+
+	} catch () {
+
+	}
+}
+
 /* UPDATE */
 export const addRemoveFriend = async (req, res) => {
   try {
