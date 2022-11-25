@@ -46,6 +46,10 @@ export const getUserPosts = async (req, res) => {
   }
 };
 
+export async function updateLoggedInUserFollowing(){
+	
+}
+
 /* UPDATE */
 export const likePost = async (req, res) => {
   try {
